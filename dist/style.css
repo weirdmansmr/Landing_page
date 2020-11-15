@@ -1,0 +1,219 @@
+@font-face {
+  font-family: Helvetica;
+  src: url(/fonts/Helvetica_LT_CondensedLight.ttf);
+}
+@font-face {
+  font-family: Helvetica_bold;
+  src: url(/fonts/Helvetica_LT_Condensed_Bold.ttf);
+}
+@font-face {
+  font-family: Helvetica_reg;
+  src: url(/fonts/Helvetica_LT_Condensed_Regular.ttf);
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+body #container #header {
+  background-color: #4c97a2;
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-around;
+}
+body #container #header h1 {
+  margin: 0;
+  font-weight: normal;
+  font-family: "Cherry Swash", cursive;
+  color: #ffffff;
+}
+body #container #header ul {
+  list-style: none;
+  display: flex;
+  font-family: "Helvetica";
+  font-weight: 100;
+}
+body #container #header ul li {
+  color: white;
+  margin: 0 10px;
+}
+body #container #header ul li a {
+  text-decoration: none;
+  color: white;
+}
+body #container #slide {
+  background: url(/images/Layer_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 35%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  font-family: "Helvetica_bold";
+  padding: 0px 36%;
+  text-align: center;
+}
+body #container #slide h1 {
+  margin: 0 0 40px 0;
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+body #container #slide button {
+  opacity: 0.8;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 7px 40px;
+  border-radius: 5px;
+  border: 1px solid white;
+  font-size: 1.6rem;
+  font-weight: 100;
+  display: flex;
+  margin: 0 auto;
+  transition: 0.1s;
+}
+body #container #slide button:hover {
+  transition: 0.1s;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+body #container #info {
+  font-family: "Helvetica_reg";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 40px 0;
+}
+body #container #info h3 {
+  font-size: 1.8rem;
+  font-weight: 100;
+  padding: 0px 34%;
+}
+body #container #info span {
+  padding: 0px 25%;
+}
+body #container #info .icons__container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+body #container #info .icons__container .basket {
+  width: 60px;
+  padding: 0 50px;
+}
+body #container #info .icons__container .earth {
+  width: 60px;
+  padding: 0 50px;
+}
+body #container #info .icons__container .portfolio {
+  width: 60px;
+  padding: 0 50px;
+}
+body #container #about {
+  background-color: #00d089;
+  color: white;
+  font-family: "Helvetica_reg";
+  padding: 50px 0;
+}
+body #container #about .avatar_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #container #about .avatar_name .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 30px 0 0;
+}
+body #container #about .avatar_name .dhavan {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+body #container #about .avatar_name .dhavan span {
+  position: relative;
+  top: 10px;
+}
+body #container #about .avatar_name .dhavan .kav {
+  width: 100px;
+}
+body #container #about p {
+  margin: 0;
+  padding: 0px 25%;
+  font-weight: 100;
+}
+body #container #map {
+  position: absolute;
+  width: 100%;
+}
+body #container #map .registration {
+  position: absolute;
+  bottom: calc(50% - 202px);
+  left: calc(50% - 202px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 200px;
+  border: 2px solid rgba(167, 167, 167, 0.7);
+  border-radius: 50%;
+}
+body #container #map .registration .name {
+  width: 300px;
+  position: absolute;
+  top: 120px;
+  height: 25px;
+  border: 0;
+  border-bottom: 1px solid #00d089;
+  outline: 0;
+}
+body #container #map .registration .name::placeholder {
+  color: #b6b6b6;
+  opacity: 1;
+  font-family: "Helvetica_reg";
+}
+body #container #map .registration .email {
+  width: 300px;
+  position: absolute;
+  top: 155px;
+  height: 25px;
+  border: 0;
+  border-bottom: 1px solid #00d089;
+  outline: 0;
+}
+body #container #map .registration .email::placeholder {
+  color: #b6b6b6;
+  opacity: 1;
+  font-family: "Helvetica_reg";
+}
+body #container #map .registration .message {
+  position: absolute;
+  height: 40px;
+  width: 300px;
+  top: 190px;
+  border: 1px solid #00d089;
+  outline: 0;
+}
+body #container #map .registration .message::placeholder {
+  color: #b6b6b6;
+  opacity: 1;
+  font-family: "Helvetica_reg";
+}
+body #container #map .registration .accept {
+  position: absolute;
+  top: 260px;
+}
+body #container footer {
+  background-color: #00d089;
+  position: relative;
+  color: white;
+  text-align: center;
+  top: 600px;
+  font-family: "Helvetica_reg";
+  font-weight: 100;
+  padding: 10px 0;
+  font-size: 0.8rem;
+}

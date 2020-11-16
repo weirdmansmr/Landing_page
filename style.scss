@@ -16,7 +16,8 @@ body {
     margin: 0;
     #container {
         #header {
-            background-color: #4c97a2;
+            background: rgb(206,176,255);
+            background: radial-gradient(circle, rgb(191, 151, 255) 0%, rgba(129,194,255,1) 100%);
             display: flex;
             padding: 10px 0;
             justify-content: space-around;
@@ -112,7 +113,8 @@ body {
             }
         }
         #about {
-            background-color: #00d089;
+            background: rgb(206,176,255);
+            background: linear-gradient(90deg, rgba(206,176,255,1) 0%, rgba(129,194,255,1) 100%);
             color: white;
             font-family: 'Helvetica_reg';
             padding: 50px 0;
@@ -166,7 +168,7 @@ body {
                     top: 120px;
                     height: 25px;
                     border: 0;
-                    border-bottom: 1px solid #00d089;
+                    border-bottom: 1px solid #bc27ff;
                     outline: 0;
                     &::placeholder {
                         color: rgb(182, 182, 182);
@@ -180,7 +182,7 @@ body {
                     top: 155px;
                     height: 25px;
                     border: 0;
-                    border-bottom: 1px solid #00d089;
+                    border-bottom: 1px solid #bc27ff;
                     outline: 0;
                     &::placeholder {
                         color: rgb(182, 182, 182);
@@ -193,7 +195,7 @@ body {
                     height: 40px;
                     width: 300px;
                     top: 190px;
-                    border: 1px solid #00d089;
+                    border: 1px solid #bc27ff;
                     outline: 0;
                     &::placeholder {
                         color: rgb(182, 182, 182);
@@ -208,7 +210,8 @@ body {
             }
         }
         footer {
-            background-color: #00d089;
+            background: rgb(206,176,255);
+            background: linear-gradient(90deg, rgba(206,176,255,1) 0%, rgba(129,194,255,1) 100%);
             position: relative;
             color: white;
             text-align: center;

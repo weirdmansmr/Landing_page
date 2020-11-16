@@ -15,7 +15,8 @@ body {
   margin: 0;
 }
 body #container #header {
-  background-color: #4c97a2;
+  background: #ceb0ff;
+  background: radial-gradient(circle, #bf97ff 0%, #81c2ff 100%);
   display: flex;
   padding: 10px 0;
   justify-content: space-around;
@@ -111,7 +112,8 @@ body #container #info .icons__container .portfolio {
   padding: 0 50px;
 }
 body #container #about {
-  background-color: #00d089;
+  background: #ceb0ff;
+  background: linear-gradient(90deg, #ceb0ff 0%, #81c2ff 100%);
   color: white;
   font-family: "Helvetica_reg";
   padding: 50px 0;
@@ -167,7 +169,7 @@ body #container #map .registration .name {
   top: 120px;
   height: 25px;
   border: 0;
-  border-bottom: 1px solid #00d089;
+  border-bottom: 1px solid #bc27ff;
   outline: 0;
 }
 body #container #map .registration .name::placeholder {
@@ -181,7 +183,7 @@ body #container #map .registration .email {
   top: 155px;
   height: 25px;
   border: 0;
-  border-bottom: 1px solid #00d089;
+  border-bottom: 1px solid #bc27ff;
   outline: 0;
 }
 body #container #map .registration .email::placeholder {
@@ -194,7 +196,7 @@ body #container #map .registration .message {
   height: 40px;
   width: 300px;
   top: 190px;
-  border: 1px solid #00d089;
+  border: 1px solid #bc27ff;
   outline: 0;
 }
 body #container #map .registration .message::placeholder {
@@ -207,7 +209,8 @@ body #container #map .registration .accept {
   top: 260px;
 }
 body #container footer {
-  background-color: #00d089;
+  background: #ceb0ff;
+  background: linear-gradient(90deg, #ceb0ff 0%, #81c2ff 100%);
   position: relative;
   color: white;
   text-align: center;

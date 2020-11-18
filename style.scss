@@ -1,14 +1,14 @@
 @font-face {
     font-family: Helvetica;
-    src: url(/fonts/Helvetica_LT_CondensedLight.ttf);
+    src: url(../fonts/Helvetica_LT_CondensedLight.ttf);
 }
 @font-face {
     font-family: Helvetica_bold;
-    src: url(/fonts/Helvetica_LT_Condensed_Bold.ttf);
+    src: url(../fonts/Helvetica_LT_Condensed_Bold.ttf);
 }
 @font-face {
     font-family: Helvetica_reg;
-    src: url(/fonts/Helvetica_LT_Condensed_Regular.ttf);
+    src: url(../fonts/Helvetica_LT_Condensed_Regular.ttf);
 }
 
 body {
@@ -43,7 +43,7 @@ body {
             }
         }
         #slide {
-            background: url(/images/Layer_1.png);
+            background: url(../images/Layer_1.png);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: 50% 35%;
